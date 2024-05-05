@@ -48,8 +48,9 @@ jobs:
       
       - name: Prepare for docker 
         run: |
-          npm install -g gulp
-          npx gulp
+          npm install gulp
+          npm install gulp-install
+          gulp
           
       - name: Set up QEMU
         uses: docker/setup-buildx-action@v3
