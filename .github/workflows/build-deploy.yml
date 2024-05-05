@@ -40,6 +40,8 @@ jobs:
         run: |
           npm i --prefix ./docker-monitor-worker-notifications
           npm run build --prefix ./docker-monitor-worker-notifications
+          cd ./docker-monitor-worker-notifications
+          ls
 
       - name: Compile - Stats
         run: |
