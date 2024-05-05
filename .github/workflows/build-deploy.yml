@@ -8,7 +8,7 @@ env:
 
 jobs: 
   Initialize: 
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     outputs: 
       version: ${{ env.VERSION }}
 
@@ -20,7 +20,7 @@ jobs:
         run: 'echo version: ${{ env.Version }}'
 
   Build_And_Push: 
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     needs: initialize
 
     steps: 
