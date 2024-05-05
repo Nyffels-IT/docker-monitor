@@ -47,7 +47,9 @@ jobs:
           npm run build --prefix ./docker-monitor-worker-stats
       
       - name: Prepare for docker 
-        run: npx gulp
+        run: |
+          npm install -g gulp
+          npx gulp
           
       - name: Set up QEMU
         uses: docker/setup-buildx-action@v3
