@@ -1,6 +1,6 @@
 {
-  "name": "docker-monitor-worker-stats",
-  "description": "The worker that receives the stats of a package",
+  "name": "docker-monitor-worker-installer",
+  "description": "This script will install needed dependencies and regulate the mysql version",
   "main": "index.js",
   "private": true,
   "scripts": {
@@ -17,10 +17,8 @@
     "@nyffels/mysql2-extension": "^1.9.0",
     "@nyffels/mysql2-global-wrapper": "^1.1.1",
     "@types/ssh2": "^1.15.0",
-    "@types/ws": "^8.5.10",
     "dotenv": "^16.4.5",
     "mysql2": "^3.9.7",
-    "ssh2": "^1.15.0",
-    "ws": "^8.17.0"
+    "ssh2": "^1.15.0"
   }
 }

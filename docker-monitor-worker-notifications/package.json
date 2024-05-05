@@ -17,6 +17,7 @@
     "@nyffels/mysql2-extension": "^1.9.0",
     "@nyffels/mysql2-global-wrapper": "^1.1.1",
     "@types/ws": "^8.5.10",
+    "dotenv": "^16.4.5",
     "ws": "^8.17.0"
   }
 }

@@ -1,6 +1,8 @@
+import { config } from 'dotenv';
 
-Entrypoint();
+config();
+entrypoint();
 
-async function Entrypoint() {
+async function entrypoint() {
   console.log("hello world");
 }
