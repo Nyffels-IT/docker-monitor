@@ -16,7 +16,10 @@
   "dependencies": {
     "@nyffels/mysql2-extension": "^1.9.0",
     "@nyffels/mysql2-global-wrapper": "^1.1.1",
+    "@types/ssh2": "^1.15.0",
     "@types/ws": "^8.5.10",
+    "mysql2": "^3.9.7",
+    "ssh2": "^1.15.0",
     "ws": "^8.17.0"
   }
 }
