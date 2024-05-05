@@ -7,7 +7,6 @@ RUN mkdir -p ./docker-monitor-worker-stats
 # Copy the programs
 COPY ./docker-monitor-worker-stats/ ./docker-monitor-worker-stats/
 
-# Copy the entrypoint
-COPY ./entrypoint ./entrypoint 
-
-CMD ["/bin/sh", "entrypoint.sh"]
+# Run the programs concurrently
+RUN npm i -g concurrently
+CMD [ 'concurrently', "node ./docker-monitor-worker-stats/entrypoint.js" ]
