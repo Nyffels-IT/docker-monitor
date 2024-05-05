@@ -33,18 +33,18 @@ jobs:
 
       - name: Compile - Install
         run: |
-          npm i --prefix /docker-monitor-install
-          npm run build--prefix /docker-monitor-install
+          npm i --prefix ./docker-monitor-install
+          npm run build --prefix ./docker-monitor-install
 
       - name: Compile - Notifications
         run: |
-          npm i --prefix /docker-monitor-notifications
-          npm run build--prefix /docker-monitor-notifications
+          npm i --prefix ./docker-monitor-notifications
+          npm run build --prefix ./docker-monitor-notifications
 
       - name: Compile - Stats
         run: |
-          npm i --prefix /docker-monitor-stats
-          npm run build--prefix /docker-monitor-stats
+          npm i --prefix ./docker-monitor-stats
+          npm run build --prefix ./docker-monitor-stats
       
       - name: Prepare for docker 
         run: npx gulp
