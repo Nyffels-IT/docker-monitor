@@ -54,4 +54,12 @@ jobs:
           context: ./dist
           pull: true
           push: true
-          tags: nyffelsit/docker-monitor:${{ needs.initialize.outputs.version }}                   
+          tags: nyffelsit/docker-monitor:${{ needs.initialize.outputs.version }} 
+
+      - name: Build and push
+        uses: docker/build-push-action@v5
+        with:
+          context: ./dist
+          pull: true
+          push: true
+          tags: nyffelsit/docker-monitor:${{ needs.initialize.outputs.version }}, nyffelsit/docker-monitor:alpha
