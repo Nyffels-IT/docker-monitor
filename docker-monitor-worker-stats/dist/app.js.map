@@ -1,0 +1,1 @@
+{"version":3,"file":"app.js","sourceRoot":"/","sources":["app.ts"],"names":[],"mappings":"AACA,UAAU,EAAE,CAAC;AAEb,KAAK,UAAU,UAAU;IACvB,OAAO,CAAC,GAAG,CAAC,aAAa,CAAC,CAAC;AAC7B,CAAC","sourcesContent":["\r\nEntrypoint();\r\n\r\nasync function Entrypoint() {\r\n  console.log(\"hello world\");\r\n}"]}
