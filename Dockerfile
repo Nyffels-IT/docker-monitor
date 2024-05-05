@@ -6,7 +6,7 @@ RUN mkdir -p ./docker-monitor-worker-stats
 RUN mkdir -p ./docker-monitor-worker-notifications
 
 # Copy the programs
-COPY /docker-monitor-worker-stats/dist/ ./docker-monitor-worker-stats/
+COPY . .
 # COPY ./docker-monitor-worker-notifications/dist ./docker-monitor-worker-notifications
 
 # Run the programs concurrently
