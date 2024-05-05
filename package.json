@@ -1,0 +1,15 @@
+{
+  "name": "docker-monitor",
+  "description": "The overal application",
+  "private": false,
+  "scripts": {
+    "pre-build": "npm install && npm install --prefix ./docker-monitor-install && npm install --prefix ./docker-monitor-worker-notifications && npm install --prefix ./docker-monitor-worker-stats",
+    "build": "npm run build --prefix ./docker-monitor-install && npm run build --prefix ./docker-monitor-worker-notifications && npm run build --prefix ./docker-monitor-worker-stats",
+    "post-build": "gulp && npm install --prefix ./dist/docker-monitor-install && npm install --prefix ./dist/docker-monitor-worker-notifications && npm install --prefix ./dist/docker-monitor-worker-stats"
+  },
+  "author": "Nyffels BV",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^5.0.0"
+  }
+}

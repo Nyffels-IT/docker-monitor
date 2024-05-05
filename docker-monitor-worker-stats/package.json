@@ -18,6 +18,7 @@
     "@nyffels/mysql2-global-wrapper": "^1.1.1",
     "@types/ssh2": "^1.15.0",
     "@types/ws": "^8.5.10",
+    "docker-monitor": "file:..",
     "dotenv": "^16.4.5",
     "mysql2": "^3.9.7",
     "ssh2": "^1.15.0",
