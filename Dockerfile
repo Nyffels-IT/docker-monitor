@@ -5,7 +5,7 @@ RUN mkdir -p ./docker-monitor-worker-stats
 RUN mkdir -p ./docker-monitor-worker-notifications
 
 # Copy the programs
-COPY ./docker-monitor-worker-stats/dist/. /docker-monitor-worker-stats/
+COPY ./docker-monitor-worker-stats/. /docker-monitor-worker-stats/
 COPY ./docker-monitor-worker-notifications/. ./docker-monitor-worker-notifications/
 COPY ./entrypoint.sh ./entrypoint.sh
 
