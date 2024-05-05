@@ -19,7 +19,7 @@ jobs:
       - name: Current version 
         run: 'echo version: ${{ env.Version }}'
 
-  Build_And_Push: 
+  Build and push: 
     runs-on: ubuntu-latest
     needs: initialize
 
