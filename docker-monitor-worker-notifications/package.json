@@ -1,6 +1,6 @@
 {
-  "name": "docker-monitor-worker-stats",
-  "description": "The worker that receives the stats of a package",
+  "name": "docker-monitor-worker-notifications",
+  "description": "The worker that handles notifications",
   "main": "index.js",
   "private": true,
   "scripts": {
