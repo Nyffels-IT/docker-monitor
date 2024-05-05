@@ -1,5 +1,4 @@
 var gulp = require('gulp');
-var install = require('gulp-install');
 
 gulp.task('default', function () {
   return gulp
@@ -16,7 +15,7 @@ gulp.task('default', function () {
     .pipe(gulp.dest('./dist'))
     .pipe(gulp.src(['./.dockerignore']))
     .pipe(gulp.dest('./dist'))
-    
+
     .pipe(gulp.src(['./entrypoint.sh']))
     .pipe(gulp.dest('./dist'));
 });
