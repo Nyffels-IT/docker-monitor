@@ -1,0 +1,20 @@
+{
+  "name": "docker-monitor-worker-stats",
+  "description": "The worker that receives the stats of a package",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "ts-node-dev --respawn src/app.ts",
+    "build": "npx tsc --build"
+  },
+  "author": "Nyffels BV",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^20.12.8",
+    "typescript": "5.4.5"
+  },
+  "dependencies": {
+    "@nyffels/mysql2-extension": "^1.9.0",
+    "@nyffels/mysql2-global-wrapper": "^1.1.1"
+  }
+}
