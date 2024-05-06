@@ -1,0 +1,14 @@
+# Docker Monitor 
+A lightweight docker application to monitor other docker servers and their container resource usage. 
+
+## In development 
+This application is currenlty in active alpha developent. If used, except regular breaking changes and problems with the application itself. We don't advise to use this in the current state for production environments. 
+
+## Contributions 
+Open a issue with the change you want to work with and give the branch the number of the issue. Branches without an issue number or no issue will not be accepted to be merged into the main branch. 
+
+## Contributors 
+- Chesney Nyffels | Nyffels BV (Original creator of the application)
+
+## License 
+MIT
