@@ -1,6 +1,6 @@
 import { name, table, type } from "@nyffels/mysql2-extension";
 
-@table('system')
+@table('systems')
 export class System {
   @name('system_id')
   @type('string')
